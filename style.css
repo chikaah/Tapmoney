@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #2e0854, #228b22, #daa520);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 30px;
+}
+
+.tap-button {
+  padding: 15px 30px;
+  font-size: 24px;
+  background-color: #daa520;
+  color: #2e0854;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+
+.tap-button:hover {
+  background-color: #ffc107;
+}
+
+#adFrame {
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  border: none;
+  position: absolute;
+}
+
+.ad-section {
+  margin-top: 40px;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
